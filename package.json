@@ -1,0 +1,23 @@
+{
+  "name": "telegram-to-x-formatter",
+  "version": "1.0.0",
+  "description": "MCP server для адаптации постов из Telegram в формат X с ограничением в 220 символов",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "telegram",
+    "x",
+    "twitter",
+    "formatter"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.9.0",
+    "@mcpjs/server": "^0.20.3",
+    "dotenv": "^16.0.3"
+  }
+}
